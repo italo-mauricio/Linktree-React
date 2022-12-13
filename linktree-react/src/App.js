@@ -1,14 +1,14 @@
 import Header from "./componentes/Header/Header";
-import RedesSociais from "./componentes/RedesSociais/RedesSociais";
+
 
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <RedesSociais />
-    </>
-  )
+    return (
+      <>
+        <Header />
+     
+      </>
+    )
 }
 
-export default App;
+export default App

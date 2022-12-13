@@ -1,13 +1,19 @@
-
+import './RedesSociais.css'
 
 const RedesSociais = () => {
-    return (
-        <div className="perfil_conteudo">
-            <div className="perfil_imagem"></div>
-            <h3>Italo Linktree</h3>
-            <p>Bem Vindos!</p>
+    
+    const ListaRedes = [
+        { id: 1, urlNome: 'Instagram' , url: '//https://www.instagram.com/italomauricio1/' }
+    ]
+    const LinkRedes = ListaRedes.map((props) => 
+        <div key={props.id} className='conteudo_links' >
+                <a href={props.url}>{props.urlNome}</a>
         </div>
-    ) 
+    )
+    
+    return (
+        <></>
+    )
 }
 
 export default RedesSociais;

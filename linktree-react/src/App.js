@@ -2,6 +2,8 @@
 const App = () => {
   return (
     <>
+      <Header />
+      <Redes />
     </>
   )
 }
